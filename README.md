@@ -14,5 +14,5 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 | col 2 is |  ![smote](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smote_oversampling.png)  |   
 | col 2 is |  ![cluster](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/cluster_centroids_undersampling.png)  |
 | col 2 is |  ![smoteen](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smoteenn.png)  |
-| col 2 is |    centered   |
+| col 2 is |   ![forest](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/balanced_forest_del3ensemble.png)   |
 | col 2 is |    centered   |
