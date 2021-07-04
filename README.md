@@ -8,10 +8,17 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 
 ### Results:
 
-The table below, show the results of each of the machine learning models.
+The table below, show the results of each machine learning models and the bulleted list discusses the results of each model.
 
 * Naive Random Oversampling:
-  * The Naive Random Oversampling model had a recall value of 0.45, precision value of 0.01 and accuracy score of 0.58. This model performed the worst overall as it achieved the lowest recall, precision and second lowest accuracy score.
+  * The Naive Random Oversampling model had a recall value of 0.45 and precision value of 0.01 in predicting high risk loans and an accuracy score of 0.58. 
+  * This model performed the worst overall as it achieved the second lowest accuracy score and lowest recall and precision values in predicting high risk loans.
+
+* Smote Oversampling:
+  * The Smote Oversampling model performed slightly better than the Naive Random Oversampling model in terms of accuracy. It's balanced accuracy score was 0.63 which is just slightly higher than the Naive Random model (0.58) due to having a higher number of true positives in the confusion matrix.
+  * Overall, the Smote model performed very similarly to the Naive Random model when it comes to predicting high risk loans as it achieved similar low scoring recall (0.54) and precision values (0.01).
+
+* Cluster Centroids Undersampling:
 
  Model:   |      Results:   |   
 |----------|:--------:|
