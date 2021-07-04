@@ -19,6 +19,7 @@ The table below, show the results of each machine learning models and the bullet
   * Overall, the Smote model performed very similarly to the Naive Random model when it comes to predicting high risk loans as it achieved similar low scoring recall (0.54) and precision values (0.01).
 
 * Cluster Centroids Undersampling:
+  * 
 
  Model:   |      Results:   |   
 |----------|:--------:|
