@@ -8,3 +8,11 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 
 ### Results:
 
+ Tables   |      Results     |   
+|----------|:-------------:|
+| col 1 is |  left-aligned | 
+| col 2 is |    centered   |   
+| col 2 is |    centered   |
+| col 2 is |    centered   |
+| col 2 is |    centered   |
+| col 2 is |    centered   |
