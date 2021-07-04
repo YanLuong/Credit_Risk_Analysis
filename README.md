@@ -10,7 +10,7 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 
  Model:   |      Results:   |   |
 |----------|:--------:|:-------------|
-|Naive Random Oversampling |  ![naive](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/naive_random_oversampling.png) | |
+|Naive Random Oversampling |  ![naive](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/naive_random_oversampling.png) |*fdfsdfdsfsdfsfsfsfsfsfsfsdfsdfdsfdsfdsfsdfsdfsdfsdfsfsdfsdfsdfsdfsdf |
 | Smote Oversampling|  ![smote](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smote_oversampling.png)  |   |
 | Cluster Centroids Undersampling |  ![cluster](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/cluster_centroids_undersampling.png)  |  |
 | Smooteenn Combination Sampling |  ![smoteen](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smoteenn.png)  |      |
