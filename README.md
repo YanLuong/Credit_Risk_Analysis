@@ -10,7 +10,7 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 
  Tables   |      Results     |   
 |----------|:-------------:|
-| col 1 is |  left-aligned | 
+| col 1 is |  ![naive](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/naive_random_oversampling.png) | 
 | col 2 is |    centered   |   
 | col 2 is |    centered   |
 | col 2 is |    centered   |
