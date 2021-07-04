@@ -8,6 +8,11 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 
 ### Results:
 
+The table below, show the results of each of the machine learning models.
+
+* Naive Random Oversampling:
+  * The Naive Random Oversampling model had a recall value of 0.45, precision value of 0.01 and accuracy score of 0.58. This model performed the worst overall as it achieved the lowest recall, precision and second lowest accuracy score.
+
  Model:   |      Results:   |   
 |----------|:--------:|
 |Naive Random Oversampling |  ![naive](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/naive_random_oversampling.png) 
