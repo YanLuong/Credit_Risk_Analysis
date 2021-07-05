@@ -23,14 +23,18 @@ Refer to the table below for the results of each machine learning models and the
   * The Cluster Centroid model performed the worst out of all the models with the lowest scores in precision, recall, F1 and accuracy. It's balanced accuracy is very low at 0.53 and recall is equally low at 0.53 for predicting low and high risk loans. 
   * This model also has the highest number of false negatives of 7955 which is reflected in the low recall.
 
-* Smooteenn Combination Sampling:
-  * The Smooteenn Combination Sampling model has a 0.64 balanced accuracy score. It is one of the higher scores in the sampling models.
+* Smoteenn Combination Sampling:
+  * The Smoteenn Combination Sampling model has a 0.64 balanced accuracy score. It has one of the higher accuracy scores in the sampling models. 
+  * The Smoteenn model also has a decent recall score of 0.72 in predicting actual high risk loans correctly while in predicting low risk loans it had a lower recall of 0.57. This can be observed in the confusion matrix where there was 7287 incorrectly predicted high risk loans (false negatives).
+  
+  
+  
 
  Model:   |      Results:   |   
 |----------|:--------:|
 |Naive Random Oversampling |  ![naive](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/naive_random_oversampling.png) 
 | Smote Oversampling|  ![smote](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smote_oversampling.png)  
 | Cluster Centroids Undersampling |  ![cluster](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/cluster_centroids_undersampling.png)  
-| Smooteenn Combination (Over and Under) Sampling |  ![smoteen](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smoteenn.png)      
+| Smoteenn Combination (Over and Under) Sampling |  ![smoteen](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/smoteenn.png)      
 | Balanced Random Forest Classifier |   ![forest](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/balanced_forest_del3ensemble.png)     
 | Easy Ensemble Classifier |  ![easy](https://github.com/YanLuong/Credit_Risk_Analysis/blob/main/screenshots/easy_ensemble_del3.png)      
