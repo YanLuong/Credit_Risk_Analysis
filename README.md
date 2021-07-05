@@ -61,4 +61,5 @@ Refer to the table below for the results of each machine learning models and the
 
 ### Recommendation:
 
+Based on the results discussed, I would recommend Easy Ensemble Classifier for predicting credit risk. The model is not perfect and may have some overfitting issues but basing it purely on accuracy score then Easy Ensemble model is the more accurate model. It also had the lowest number of false negatives and false positives out of all the models.
 
