@@ -2,7 +2,7 @@
 
 ### Overview and Purpose of the Analysis:
 
-In this project, we will use machine learning to assess credit loan risk. The Scikit-learn library will allow us to build and evaluate several supervised machine learning models to predict credit risk. Analysing credit risk has an unbalanced classification problem due to good loans outnumbering risky loans so I will use oversampling (such as RandomOverSampler and SMOTE), undersampling (ClusterCentroids) and ensemble algorithms. I will compare the strengths and weaknesses of the different machine learning models and determine whether they are useful in predicting credit risk. The objective of this analysis is to assess how well each model classifies and predicts credit risk and whether the imbalance between high-risk and low-risk data can be overcome in the various models.
+In this project, we will use machine learning to assess credit loan risk. The Scikit-learn library will allow us to build and evaluate several supervised machine learning models to predict credit risk. Analysing credit risk has an unbalanced classification problem due to good loans outnumbering risky loans so I will use oversampling (such as RandomOverSampler and SMOTE), undersampling (ClusterCentroids) and ensemble algorithms. I will compare the strengths and weaknesses of the different machine learning models and determine whether they are useful in predicting credit risk. The objective of this analysis is to assess how well each model classifies and predicts credit risk and whether the imbalance class distribution between high-risk and low-risk data can be overcome in the various models.
 
 ##
 
@@ -22,6 +22,9 @@ Refer to the table below for the results of each machine learning models and the
 * Cluster Centroids Undersampling:
   * The Cluster Centroid model performed the worst out of all the models with the lowest scores in precision, recall, F1 and accuracy. It's balanced accuracy is very low at 0.53 and recall is equally low at 0.53 for predicting low and high risk loans. 
   * This model also has the highest number of false negatives of 7955 which is reflected in the low recall.
+
+* Smooteenn Combination Sampling:
+  * The Smooteenn Combination Sampling model has a 0.64 balanced accuracy score. It is one of the higher scores in the sampling models.
 
  Model:   |      Results:   |   
 |----------|:--------:|
