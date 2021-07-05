@@ -20,7 +20,7 @@ Refer to the table below for the results of each machine learning models and the
   * Overall, the Smote model performed very similarly to the Naive Random model when it comes to predicting high risk credit as it achieved similar low scoring recall (0.54) and precision values (0.01). Both models have very similar numbers in the confusion matrix.
 
 * Cluster Centroids Undersampling:
-  * The Cluster Centroid model performed the worst out of all the models with the lowest scores in precision, recall, F1 and accuracy. It's balanced accuracy is very low at 0.53 and recall is equally low at 0.53 for predicting low and high risk loans. 
+  * The Cluster Centroid model performed the worst out of all the models with the lowest scores in precision, recall, F1 and accuracy. It's balanced accuracy is very low at 0.53 and recall is equally low at 0.53 for predicting low and high risk credit. 
   * This model also has the highest number of false negatives of 7955 which is reflected in the low recall.
 
 * Smoteenn Combination Sampling:
