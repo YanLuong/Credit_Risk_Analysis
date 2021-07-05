@@ -26,6 +26,7 @@ Refer to the table below for the results of each machine learning models and the
 * Smoteenn Combination Sampling:
   * The Smoteenn Combination Sampling model has a 0.64 balanced accuracy score. It has one of the higher accuracy scores in the sampling models. 
   * The Smoteenn model also has a decent recall score of 0.72 in predicting actual high risk loans correctly while in predicting low risk loans it had a lower recall of 0.57. This can be observed in the confusion matrix where there was 7287 incorrectly predicted high risk loans (false negatives).
+  * Like the other sampling methods, Smoteenn model has a high precision score of 1 in predicting low risk loans.
   
   
   
