@@ -1,4 +1,4 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis
 
 ### Overview and Purpose of the Analysis:
 
@@ -53,5 +53,12 @@ Refer to the table below for the results of each machine learning models and the
 
 ##
 
+### Summary: 
+
+* The models that performed the worst are Cluster Centroid and Naive Random. They both have very low accuracy scores, poor recall scores and very high number of false negatives. 
+* The ensemble classifier models performed better on the whole when compared to the sampling methods with the Easy Ensemble Classifier achieving highest scores in accuracy, precision, recall and F1 overall. 
+* The Easy Ensemble classifier was the model that had lowest number of false negatives and false positives which is indicated by the high balanced accuracy score of 0.93.
+
+### Recommendation:
 
 
