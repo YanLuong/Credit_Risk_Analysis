@@ -8,18 +8,20 @@ In this project, we will use machine learning to assess credit loan risk. The Sc
 
 ### Results:
 
-The table below, show the results of each machine learning models and the bulleted list discusses the results of each model.
+Refer to the table below for the results of each machine learning models and the bulleted list discusses the results of each model.
 
 * Naive Random Oversampling:
   * The Naive Random Oversampling model had a recall value of 0.45 and precision value of 0.01 in predicting high risk loans and an accuracy score of 0.58. 
-  * This model performed the worst overall as it achieved the second lowest accuracy score and lowest recall and precision values in predicting high risk loans.
+  * This model performed second worst overall as it achieved the second lowest accuracy score and lowest recall and precision values in predicting high risk loans.
+  * This model has high precision of 1 in low risk prediction and low recall of 0.71 which means a proportion of loans that was predicted to be high risk was actually low risk and not captured correctly. This can be seen in the confusion matrix where there are 4988 false negatives.
 
 * Smote Oversampling:
   * The Smote Oversampling model performed slightly better than the Naive Random Oversampling model in terms of accuracy. It's balanced accuracy score was 0.63 which is just slightly higher than the Naive Random model (0.58) due to having a higher number of true positives in the confusion matrix.
   * Overall, the Smote model performed very similarly to the Naive Random model when it comes to predicting high risk loans as it achieved similar low scoring recall (0.54) and precision values (0.01).
 
 * Cluster Centroids Undersampling:
-  * 
+  * The Cluster Centroid model performed the worst out of all the models with the lowest scores in precision, recall, F1 and accuracy. It's balanced accuracy is very low at 0.53 and recall is equally low at 0.53 for predicting low and high risk loans. 
+  * This model also has the highest number of false negatives of 7955 which is reflected in the low recall.
 
  Model:   |      Results:   |   
 |----------|:--------:|
