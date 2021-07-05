@@ -17,7 +17,7 @@ Refer to the table below for the results of each machine learning models and the
 
 * Smote Oversampling:
   * The Smote Oversampling model performed slightly better than the Naive Random Oversampling model in terms of accuracy. It's balanced accuracy score was 0.63 which is just slightly higher than the Naive Random model (0.58) due to having a higher number of true positives in the confusion matrix.
-  * Overall, the Smote model performed very similarly to the Naive Random model when it comes to predicting high risk loans as it achieved similar low scoring recall (0.54) and precision values (0.01).
+  * Overall, the Smote model performed very similarly to the Naive Random model when it comes to predicting high risk loans as it achieved similar low scoring recall (0.54) and precision values (0.01). Both models have very similar numbers in the confusion matrix.
 
 * Cluster Centroids Undersampling:
   * The Cluster Centroid model performed the worst out of all the models with the lowest scores in precision, recall, F1 and accuracy. It's balanced accuracy is very low at 0.53 and recall is equally low at 0.53 for predicting low and high risk loans. 
